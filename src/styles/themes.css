@@ -1,0 +1,30 @@
+:root {
+  --bg: #ffffff;
+  --text: #1f2937;
+  --font: 'Helvetica Neue', sans-serif;
+  --padding: 1rem;
+  --structure: block;
+  --sidebar-width: 0;
+}
+
+[data-theme='theme2'] {
+  --bg: #111827;
+  --text: #f9fafb;
+  --font: 'Georgia', serif;
+  --padding: 2rem;
+  --structure: flex;
+  --sidebar-width: 250px;
+}
+
+[data-theme='theme3'] {
+  --bg: #fef3c7;
+  --text: #1f2937;
+  --font: 'Pacifico', cursive;
+  --padding: 1.5rem;
+  --structure: grid;
+  --sidebar-width: 0;
+}
+
+html {
+  transition: all 0.3s ease-in-out;
+}
